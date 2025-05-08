@@ -1,0 +1,17 @@
+{
+    "title": "ヘルスケアアプリ",
+    "camera_title": "傷の検出",
+    "start_camera": "カメラを起動",
+    "capture_image": "画像をキャプチャ",
+    "injury_result": "診断",
+    "suggested_medicine": "推奨される薬",
+    "chatbot_title": "健康アシスタント",
+    "chatbot_placeholder": "質問を入力してください...",
+    "send": "送信",
+    "symptom_analyzer_title": "症状分析",
+    "symptom_analyzer_placeholder": "ここに症状を入力してください（近日公開）",
+    "telemedicine_title": "遠隔医療",
+    "telemedicine_placeholder": "専門家とつながる（近日公開）",
+    "emr_viewer_title": "EMRビューア",
+    "emr_viewer_placeholder": "医療記録を見る（近日公開）"
+  }

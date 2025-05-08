@@ -1,0 +1,17 @@
+{
+    "title": "ഹെൽത്ത്‌കെയർ ആപ്പ്",
+    "camera_title": "പരിക്ക് കണ്ടെത്തൽ",
+    "start_camera": "ക്യാമറ ആരംഭിക്കുക",
+    "capture_image": "ചിത്രം പകർത്തുക",
+    "injury_result": "നിർണയം",
+    "suggested_medicine": "നിർദ്ദേശിച്ച മരുന്ന്",
+    "chatbot_title": "ആരോഗ്യ സഹായി",
+    "chatbot_placeholder": "നിന്റെ ചോദ്യം ടൈപ്പ് ചെയ്യുക...",
+    "send": "അയയ്ക്കുക",
+    "symptom_analyzer_title": "ലക്ഷണ വിശകലനം",
+    "symptom_analyzer_placeholder": "നിന്റെ ലക്ഷണങ്ങൾ ഇവിടെ നൽകുക (വരുന്നു)",
+    "telemedicine_title": "ടെലിമെഡിസിൻ",
+    "telemedicine_placeholder": "ഒരു വിദഗ്ധനുമായി ബന്ധപ്പെടുക (വരുന്നു)",
+    "emr_viewer_title": "ഇഎംആർ വ്യൂവർ",
+    "emr_viewer_placeholder": "നിന്റെ മെഡിക്കൽ രേഖകൾ കാണുക (വരുന്നു)"
+  }

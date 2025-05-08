@@ -1,0 +1,17 @@
+{
+    "title": "హెల్త్‌కేర్ యాప్",
+    "camera_title": "గాయం గుర్తింపు",
+    "start_camera": "కెమెరా ప్రారంభించండి",
+    "capture_image": "చిత్రం తీయండి",
+    "injury_result": "నిర్ధారణ",
+    "suggested_medicine": "సూచించిన ఔషధం",
+    "chatbot_title": "ఆరోగ్య సహాయకుడు",
+    "chatbot_placeholder": "మీ ప్రశ్నను టైప్ చేయండి...",
+    "send": "పంపండి",
+    "symptom_analyzer_title": "లక్షణ విశ్లేషకుడు",
+    "symptom_analyzer_placeholder": "మీ లక్షణాలను ఇక్కడ నమోదు చేయండి (త్వరలో వస్తుంది)",
+    "telemedicine_title": "టెలిమెడిసిన్",
+    "telemedicine_placeholder": "నిపుణుడితో కనెక్ట్ అవ్వండి (త్వరలో వస్తుంది)",
+    "emr_viewer_title": "ఈఎంఆర్ వీక్షకుడు",
+    "emr_viewer_placeholder": "మీ వైద్య రికార్డులను చూడండి (త్వరలో వస్తుంది)"
+  }

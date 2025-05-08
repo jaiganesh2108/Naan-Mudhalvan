@@ -1,0 +1,17 @@
+{
+  "title": "Healthcare App",
+  "camera_title": "Injury Detection",
+  "start_camera": "Start Camera",
+  "capture_image": "Capture Image",
+  "injury_result": "Diagnosis",
+  "suggested_medicine": "Suggested Medicine",
+  "chatbot_title": "Health Assistant",
+  "chatbot_placeholder": "Type your question...",
+  "send": "Send",
+  "symptom_analyzer_title": "Symptom Analyzer",
+  "symptom_analyzer_placeholder": "Enter your symptoms here (coming soon)",
+  "telemedicine_title": "Telemedicine",
+  "telemedicine_placeholder": "Connect with a specialist (coming soon)",
+  "emr_viewer_title": "EMR Viewer",
+  "emr_viewer_placeholder": "View your medical records (coming soon)"
+}

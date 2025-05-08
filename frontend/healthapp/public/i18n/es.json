@@ -1,0 +1,17 @@
+{
+    "title": "Aplicación de Salud",
+    "camera_title": "Detección de Lesiones",
+    "start_camera": "Iniciar Cámara",
+    "capture_image": "Capturar Imagen",
+    "injury_result": "Diagnóstico",
+    "suggested_medicine": "Medicina Sugerida",
+    "chatbot_title": "Asistente de Salud",
+    "chatbot_placeholder": "Escribe tu pregunta...",
+    "send": "Enviar",
+    "symptom_analyzer_title": "Analizador de Síntomas",
+    "symptom_analyzer_placeholder": "Ingresa tus síntomas aquí (próximamente)",
+    "telemedicine_title": "Telemedicina",
+    "telemedicine_placeholder": "Conéctate con un especialista (próximamente)",
+    "emr_viewer_title": "Visor de EMR",
+    "emr_viewer_placeholder": "Ver tus registros médicos (próximamente)"
+  }

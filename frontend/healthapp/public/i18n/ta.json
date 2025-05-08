@@ -1,0 +1,17 @@
+{
+    "title": "புரோகிராம் ஆரோக்கியம்",
+    "camera_title": "புண் கண்டறிதல்",
+    "start_camera": "கேமராவை தொடங்கு",
+    "capture_image": "படம் எடு",
+    "injury_result": "நோயறிதல்",
+    "suggested_medicine": "பரிந்துரைக்கப்பட்ட மருந்து",
+    "chatbot_title": "ஆரோக்கிய உதவியாளர்",
+    "chatbot_placeholder": "உங்கள் கேள்வியை தட்டச்சு செய்யவும்...",
+    "send": "அனுப்பு",
+    "symptom_analyzer_title": "அறிகுறி பகுப்பாய்வி",
+    "symptom_analyzer_placeholder": "உங்கள் அறிகுறிகளை இங்கே உள்ளிடவும் (விரைவில் வரும்)",
+    "telemedicine_title": "தொலைமருத்துவம்",
+    "telemedicine_placeholder": "ஒரு நிபுணருடன் இணைக்கவும் (விரைவில் வரும்)",
+    "emr_viewer_title": "மருத்துவ பதிவு பார்வையாளர்",
+    "emr_viewer_placeholder": "உங்கள் மருத்துவ பதிவுகளை பார்க்கவும் (விரைவில் வரும்)"
+  }

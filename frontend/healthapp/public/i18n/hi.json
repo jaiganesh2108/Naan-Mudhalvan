@@ -1,0 +1,17 @@
+{
+    "title": "हेल्थकेयर ऐप",
+    "camera_title": "चोट का पता लगाना",
+    "start_camera": "कैमरा शुरू करें",
+    "capture_image": "छवि कैप्चर करें",
+    "injury_result": "निदान",
+    "suggested_medicine": "सुझाई गई दवा",
+    "chatbot_title": "स्वास्थ्य सहायक",
+    "chatbot_placeholder": "अपना प्रश्न टाइप करें...",
+    "send": "भेजें",
+    "symptom_analyzer_title": "लक्षण विश्लेषक",
+    "symptom_analyzer_placeholder": "अपने लक्षण यहाँ दर्ज करें (जल्द ही आ रहा है)",
+    "telemedicine_title": "टेलीमेडिसिन",
+    "telemedicine_placeholder": "विशेषज्ञ से जुड़ें (जल्द ही आ रहा है)",
+    "emr_viewer_title": "ईएमआर व्यूअर",
+    "emr_viewer_placeholder": "अपने मेडिकल रिकॉर्ड देखें (जल्द ही आ रहा है)"
+  }

@@ -1,0 +1,17 @@
+{
+    "title": "医疗健康应用",
+    "camera_title": "伤害检测",
+    "start_camera": "启动相机",
+    "capture_image": "捕捉图像",
+    "injury_result": "诊断",
+    "suggested_medicine": "建议的药物",
+    "chatbot_title": "健康助手",
+    "chatbot_placeholder": "输入您的问题...",
+    "send": "发送",
+    "symptom_analyzer_title": "症状分析器",
+    "symptom_analyzer_placeholder": "在这里输入您的症状（即将推出）",
+    "telemedicine_title": "远程医疗",
+    "telemedicine_placeholder": "与专家联系（即将推出）",
+    "emr_viewer_title": "电子病历查看器",
+    "emr_viewer_placeholder": "查看您的医疗记录（即将推出）"
+  }

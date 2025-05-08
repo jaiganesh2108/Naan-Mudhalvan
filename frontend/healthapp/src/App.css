@@ -1,0 +1,189 @@
+/* App.jsx Styles */
+.app-container {
+  min-height: 100vh;
+  background-color: #f3f4f6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+}
+
+.app-header {
+  width: 100%;
+  max-width: 56rem;
+  background-color: #2563eb;
+  color: #ffffff;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+}
+
+.app-header h1 {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  font-weight: 700;
+}
+
+.app-header div {
+  margin-top: 0.5rem;
+}
+
+.app-header select {
+  background-color: #ffffff;
+  color: #000000;
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+}
+
+.app-main {
+  width: 100%;
+  max-width: 56rem;
+  margin-top: 1rem;
+}
+
+.app-main > * + * {
+  margin-top: 1rem;
+}
+
+/* Component Container (used in CameraCapture, SymptomAnalyzer, Telemedicine, EMRViewer, Chatbot) */
+.component-container {
+  background-color: #ffffff;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+}
+
+.component-container h2 {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  font-weight: 600;
+}
+
+.component-container p {
+  margin-top: 0.5rem;
+}
+
+/* CameraCapture Specific Styles */
+.camera-video {
+  width: 100%;
+  margin-top: 0.5rem;
+  border-radius: 0.25rem;
+}
+
+.camera-canvas {
+  display: none;
+}
+
+.camera-buttons {
+  margin-top: 1rem;
+  display: flex;
+}
+
+.camera-buttons > * + * {
+  margin-left: 1rem;
+}
+
+.button-start-camera {
+  background-color: #3b82f6;
+  color: #ffffff;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-radius: 0.25rem;
+}
+
+.button-start-camera:hover {
+  background-color: #1d4ed8;
+}
+
+.button-capture-image {
+  background-color: #22c55e;
+  color: #ffffff;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-radius: 0.25rem;
+}
+
+.button-capture-image:hover {
+  background-color: #16a34a;
+}
+
+.camera-result {
+  margin-top: 1rem;
+}
+
+/* Chatbot Specific Styles */
+.chat-container {
+  height: 16rem;
+  overflow-y: auto;
+  border: 1px solid #e5e7eb;
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+  border-radius: 0.25rem;
+  background-color: #f9fafb;
+}
+
+.message-user {
+  padding: 0.5rem;
+  margin-top: 0.25rem;
+  margin-bottom: 0.25rem;
+  border-radius: 0.25rem;
+  background-color: #dbeafe;
+  margin-left: auto;
+  max-width: 20rem;
+}
+
+.message-bot {
+  padding: 0.5rem;
+  margin-top: 0.25rem;
+  margin-bottom: 0.25rem;
+  border-radius: 0.25rem;
+  background-color: #dcfce7;
+  margin-right: auto;
+  max-width: 20rem;
+}
+
+.chat-input-container {
+  margin-top: 1rem;
+  display: flex;
+}
+
+.chat-input {
+  flex: 1 1 0%;
+  padding: 0.5rem;
+  border: 1px solid #e5e7eb;
+  border-top-left-radius: 0.25rem;
+  border-bottom-left-radius: 0.25rem;
+}
+
+.button-send {
+  background-color: #3b82f6;
+  color: #ffffff;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-top-right-radius: 0.25rem;
+  border-bottom-right-radius: 0.25rem;
+}
+
+.button-send:hover {
+  background-color: #1d4ed8;
+}
+
+/* Error Boundary Styles */
+.error-container {
+  padding: 1rem;
+  background-color: #fee2e2;
+  color: #b91c1c;
+  border-radius: 0.5rem;
+}
+
+.error-container h2 {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  font-weight: 600;
+}
