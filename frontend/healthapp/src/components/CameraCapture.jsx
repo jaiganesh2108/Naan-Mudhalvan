@@ -27,14 +27,19 @@ function CameraCapture() {
       const context = canvasRef.current.getContext('2d');
       context.drawImage(videoRef.current, 0, 0, 640, 480);
       const imageData = canvasRef.current.toDataURL('image/jpeg');
-      console.log('Captured image (base64):', imageData.substring(0, 50) + '...'); // Log first 50 chars of base64
+      console.log('Captured image (base64):', imageData.substring(0, 50) + '...');
+
+      const controller = new AbortController();
+      const timeoutId = setTimeout(() => controller.abort(), 10000); // 10-second timeout
 
       const response = await fetch(`${API_BASE_URL}/injury/analyze`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ image: imageData }),
+        signal: controller.signal,
       });
 
+      clearTimeout(timeoutId);
       console.log('Response status:', response.status);
       const data = await response.json();
       console.log('Backend response:', data);
@@ -42,7 +47,12 @@ function CameraCapture() {
       setResult(data);
     } catch (error) {
       console.error('Error analyzing image:', error);
-      setResult({ type: 'Error', medicine: t('analysis_error') });
+      setResult({
+        type: 'Error',
+        medicine: error.name === 'AbortError'
+          ? t('analysis_timeout')
+          : t('analysis_error', { message: error.message })
+      });
     } finally {
       setLoading(false);
       if (stream) {
@@ -73,7 +83,7 @@ function CameraCapture() {
           {t('capture_image')}
         </button>
       </div>
-      {loading && <div className="spinner"></div>}
+      {loading && <div className="spinner">{t('analyzing_image')}</div>}
       {result && (
         <div className="camera-result">
           <p><strong>{t('injury_type')}:</strong> {result.type}</p>
